@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>D3 Network Technologies</title>
+</head>
+<body>
+<div class="mobile">
+<nav>
+    <details>
+        <summary>
+            <div id="flexbox"><img src="media/menu.png" alt="Menu button click here for menu" id="menubutton"><img src="media/banner1.png" alt="D3 Network Technologies" id="banner1"></div></summary>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+    </details>
+</nav>
+</div>
+<nav class="desktop">
+    <div id="menu" class="desktop">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+        <div id="dropdown">
+        <a id="more">More &#9660;</a>
+            <div id="dropdowncontent">
+                <a href="about.html">About Us</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+</nav>
+<div>
+    <img src="media/banner2.png" id="contactbanner" class="topimages desktop" alt="D3 Network Technologies, we bring the control to the palm of your hand.">
+</div>
+<div id="hiddendiv"></div>
+<h1>Gallery</h1>
+<div id="galleryimages">
+    <div class="rowof4">
+        <img src="media/image1.jpg" onclick="myFunction(this)" alt="baby holding security camera">
+        <img src="media/image2.jpg" onclick="myFunction(this)" alt="path of j hooks">
+        <img src="media/image3.jpg" onclick="myFunction(this)" alt="D3 family">
+        <img src="media/image4.jpg" onclick="myFunction(this)" alt="cable kit">
+    </div>
+    <div class="rowof2">
+        <img src="media/image5.jpg" onclick="myFunction(this)" alt="D3 worker">
+        <img src="media/image6.jpg" onclick="myFunction(this)" alt="Daniel Martinez from D3 Network Technologies">
+    </div>
+    <div class="rowof4">
+        <img src="media/image7.jpg" onclick="myFunction(this)" alt="Security camera in the corner of a business">
+        <img src="media/image8.jpg" onclick="myFunction(this)" alt="D3 worker laying down a path for cable">
+        <img src="media/image9.jpg" onclick="myFunction(this)" alt="baby holding security camera">
+        <img src="media/image10.jpg" onclick="myFunction(this)" alt="security camera secured by pipe in the basement of a restaurant">
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width: 100%">
+        <div id="imgtext"></div>
+    </div>
+</div>
+<div id="facebookdiv">
+    <a href="https://www.facebook.com/d3networktechnologies" target="blank">Check us out on <span id="facebook">Facebook</span></a>
+</div>
+<footer>
+    <p>&copy;2022 D3 Network Technologies</p>
+</footer>
+<script>
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+nav {
+    background-color: #005a71;
+    text-align: center;
+    font-size: 1.6em;
+    font-style: italic;
+    line-height: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+body {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #fff, #005a71);
+    text-align: center;
+    /* THIS WAS THE BACKGROUND IMAGE FOR SERVICES BUT IM SLEEPY 
+    background-image: url(media/image4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    */
+}
+a {
+    color: rgb(255, 247, 240);
+    text-decoration: none;
+    padding-right: 50px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgb(43, 43, 43) 10px 10px 5px 5px;
+    overflow: hidden;
+}
+#menu {
+    display: inline-block;
+}
+#dropdowncontent a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+#dropdown:hover #dropdowncontent {
+    display: block;
+}
+#menu a {
+    float: left;
+}
+#menu #dropdown #dropdowncontent a {
+    float: none;
+    display: block;
+    background-color: #005a71;
+    overflow: hidden;
+    padding: 5px 40px;
+}
+#dropdowncontent {
+    display: none;
+    position: absolute;
+    top: 35px;
+    
+}
+#dropdown {
+    float: left;
+    
+}
+#more {
+    z-index: 1;
+}
+/* Leave everything above this line alone if you need to make adjustments move the element below this line */
+nav a:hover {
+    color: #bcfff9;
+    font-size: 1.1em;
+}
+#homeslider img {
+    box-shadow: none;
+    border-radius: 0px;
+}
+.topimages {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+.segment {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.segment p {
+    width: 40%;
+    display: inline-block;
+    height: auto;
+    line-height: 1.4em;
+    padding: 0px 10px 0px 10px;
+    font-style: italic;
+   
+}
+.segment img {
+    width: 40%;
+}
+p {
+    font-size: 1.5em;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.4em;
+}
+.hometitles {
+    font-size: 2em;
+    line-height: 2em;
+    font-style: italic;
+    color: #005a71;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 10px;
+}
+#wrapper {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+blockquote {
+    font-size: 1.4em;
+    font-style: italic;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+footer {
+    font-size: .4em;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+.singlepicture {
+    width: 70%;
+    height: 80%;
+}
+dl {
+    font-size: 3em;
+    line-height: 3em;
+}
+dt {
+    font-weight: bold;
+}
+h1 {
+    font-size: 6em;
+    padding-bottom: 0em;
+    font-weight: normal;
+}
+dd a {
+    font-size: .7em;
+    color: black;
+}
+#contactquote {
+    margin-bottom: 0px;
+}
+ul {
+    font-size: 2em;
+    line-height: 4em;
+    list-style-type: none;
+}
+#flexbox img{
+    height: 190px;
+}
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+#menubutton {
+    width: 10%;
+}
+#banner1 {
+    width: 80%;
+}
+.desktop {
+    display: none;
+}
+.floatleft {
+    width: 60%;
+    float: left;
+    clear: both;
+    background-color: rgba(220, 220, 220, 0.9);
+    margin: 60px 0px 60px 0px;
+    border-radius: 0px 60px 60px 0px;
+    padding: 50px 0px 50px 0px;
+    box-shadow: rgb(22, 22, 22) 35px 15px 30px;
+    
+}
+.floatright {
+    width: 60%;
+    float: right;
+    clear: both;
+    background-color: rgba(220, 220, 220, 0.9);
+    margin: 60px 0px 60px 0px;
+    border-radius: 60px 0px 0px 60px;
+    padding: 50px 0px 50px 0px;
+    box-shadow: rgb(22, 22, 22) 35px 15px 30px;
+}
+
+#homeslider {
+    overflow: hidden;
+    width: 100%;
+}
+#homeslider figure {
+    width: 500%;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    animation: 20s slider infinite;
+    z-index: -1;
+}
+#homeslider figure img {
+    width: 20%;
+    float: left;
+    height: 600px;
+}
+#facebookdiv {
+    background-color:white ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#facebookdiv a {
+    padding: 5px;
+    font-size: 2.5em;
+    color: black;
+}
+#facebook {
+    color: #4267b2;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.rowof4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.rowof4 img {
+    width: 25%;
+}
+.rowof2 {
+    display: flex;
+    flex-direction: row;
+}
+.rowof2 img {
+    width: 50%;
+}
+#galleryimages {
+    background-color: black;
+    width: 100%;
+}
+#galleryimages img {
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 5px 3px 5px 3px;
+}
+.container {
+    position: fixed;
+    display: none;
+    width: 90%;
+    top: 4%;
+    left: 5%;
+    right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#expandedImg {
+    height: 90vh;
+    width: 90%;
+}
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+    
+}
+.mobile {
+    display: none;
+}
+.desktop {
+    display: inline-block;
+}
+@media (max-width: 940px) {
+    nav a {
+        padding-right: .8em;
+    }
+    #dropdowncontent a {
+        padding-bottom: 1.5em;
+    }
+    .topimages {
+        margin-top: 30px;
+    }
+    #wrapper {
+        width: 97%;
+    }
+    p {
+        font-size: 1em;
+    }
+    blockquote {
+        line-height: 1.3em;
+    }
+    .floatleft {
+        width: 95%;
+    }
+    .floatright {
+        width: 95%;
+    }
+    #contactsegment {
+        flex-direction: column;
+    }
+    #contactsegment img {
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    details summary {
+        list-style-type: none;
+        text-indent: 30px;
+        text-decoration: none;
+        font-style: none;
+        float: left;
+    }
+    details > summary::-webkit-details-marker {
+        display: none;
+      }
+    details {
+        text-decoration: none;
+        text-decoration-style: none;
+        text-align: left;
+        display: inline-block;
+    }
+    ul {
+        font-size: .8em;
+    }
+    li {
+        text-decoration: underline;
+        line-height: 3.5em;
+    }
+    summary {
+        height: 3.4em
+    }
+    #flexbox img {
+        height: 3em;
+        margin-top: .4em;
+       padding: 3px;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    #menubutton {
+        width: 25%;
+    }
+    #flexbox {
+        width: 100%;
+    }
+    .topimages {
+        margin-top: 70px;
+    }
+    .segment {
+        flex-direction: column;
+    }
+    #wrapper {
+        width: 100%;
+    }
+    .segment p, .segment img {
+        width: 93%;
+        padding-top: 0px;
+        margin-top: 50px;
+    }
+    dd a {
+        font-size: .4em;
+    }
+    .singlepicture {
+        width: 90%;
+    }
+    dd {
+        margin-inline-start: 20px;
+    }
+    #phonenumber {
+        font-size: .7em;
+    }
+    h1 {
+        font-size: 3.8em;
+    }
+    p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #hiddendiv {
+        height: 100px;
+    }
+    #expandedImg {
+        height: 60vh;
+    }
+    .container {
+        left: 2px;
+        width: 99%
+    }
+
+}
