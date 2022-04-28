@@ -129,6 +129,7 @@ blockquote {
     padding-bottom: 1.5em;
     font-weight: normal;
     line-height: 1.5em;
+    
 
 }
 footer {
@@ -474,10 +475,10 @@ ul {
         width: 99%
     }
     blockquote {
-        padding: 0px;
         margin: 0px;
         margin-top: 0px;
         text-align: left;
+        padding: 0px 3px 0px 3px;
     }
     .singlepicture {
         margin-bottom: 30px;
